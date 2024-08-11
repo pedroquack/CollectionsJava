@@ -1,9 +1,7 @@
-import List.ListaTarefas;
-import List.Tarefa;
+import list.basics.ListaTarefas;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        
         ListaTarefas listaTarefas = new ListaTarefas();
         listaTarefas.adicionarTarefa("Tarefa 1");
         listaTarefas.adicionarTarefa("Tarefa 2");
